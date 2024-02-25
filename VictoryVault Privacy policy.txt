@@ -1,0 +1,42 @@
+Privacy Policy for VictoryVault App
+
+
+Introduction
+
+Welcome to VictoryVault! This Privacy Policy outlines how your data is collected, used, and stored by our app. We take your privacy seriously, and we are committed to ensuring that your personal information remains confidential and secure.
+
+Information We Collect
+
+VictoryVault app collects and stores the following data:
+
+Stopwatch Data:
+The app records and stores stopwatch-related data, including elapsed time and timestamps.
+How We Use Your Data
+
+We use the collected data for the sole purpose of providing stopwatch functionality and saving records in the app's database. Your data is not shared with third parties, and we do not use it for any marketing or advertising purposes.
+
+Data Security
+
+We prioritize the security of your data. The information you provide is stored securely on your device. VictoryVault employs industry-standard measures to protect against unauthorized access, alteration, disclosure, or destruction of your personal information.
+
+Data Retention
+
+We retain your stopwatch data on your device for as long as you use the VictoryVault app. You can manage and delete your records within the app at any time.
+
+No Data Sharing
+Third-Party Advertising: Advertisements in the app may be provided by third-party ad networks. These networks may collect data for personalized advertising. We do not control the data collection practices of these networks.
+
+VictoryVault does not share your personal data with any third parties. Your information is kept strictly confidential and is not used for marketing or advertising purposes.
+
+Children's Privacy
+
+VictoryVault is not directed at children under the age of 13. We do not knowingly collect personal information from children. If you are a parent or guardian and discover that your child has provided us with personal information, please contact us, and we will take steps to delete that information.
+
+Changes to This Privacy Policy
+
+We may update our Privacy Policy from time to time. Any changes will be posted on this page, and the effective date will be updated accordingly.
+
+Contact Us
+
+If you have any questions or concerns about our Privacy Policy, please contact us at techspy159@gmail.com.
+
