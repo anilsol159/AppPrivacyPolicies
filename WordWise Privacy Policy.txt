@@ -1,0 +1,34 @@
+Privacy Policy for WordWise
+
+Effective Date: 03-03-2024
+
+Thank you for choosing WordWise! This Privacy Policy outlines how we handle user information to ensure privacy and security. Please read this policy carefully.
+
+Information We Collect:
+
+WordWise does not collect any personal information from its users. The app solely relies on external API services to provide information related to words.
+
+Data Collection and Usage:
+
+API Responses: WordWise may retrieve data from external APIs related to word meanings, pronunciations, and related information. This data is used solely for the purpose of enhancing the user experience within the app.
+Data Sharing:
+
+WordWise does not share any user data with third parties. The data retrieved from external APIs is used internally and is not disclosed or sold to external entities.
+
+Security:
+
+We take appropriate measures to safeguard the data collected, ensuring it is stored securely and protected against unauthorized access.
+
+Children's Privacy:
+
+WordWise is not intended for children under the age of 13. We do not knowingly collect or solicit personal information from children.
+
+Changes to this Privacy Policy:
+
+WordWise reserves the right to modify this Privacy Policy. Users will be notified of any significant changes, and it is recommended to review this policy periodically.
+
+Contact Us:
+
+If you have any questions or concerns regarding this Privacy Policy, please contact us at techspy159@gmail.com.
+
+Thank you for using WordWise!
