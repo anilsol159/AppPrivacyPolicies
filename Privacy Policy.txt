@@ -1,0 +1,26 @@
+Privacy Policy
+
+Effective date: 07-04-2024
+
+ASD Media ("us", "we", or "our") operates the AquaAlert - Drink Water Remainder mobile application (hereinafter referred to as the "Service").
+
+This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.
+
+We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy.
+
+Information Collection and Use
+We do not collect any personally identifiable information from you when you use our Service. The Service may request access to your device's storage in order to store your water drinking records locally. This data is stored securely on your device and is not transmitted to us or any third parties.
+
+Use of AdMob
+Our Service may display advertisements served by Google's AdMob advertising network. AdMob may use cookies and other tracking technologies to personalize the ads you see based on your interests and to measure the effectiveness of the ads. Please refer to Google's Privacy Policy for more information on how Google handles your data: Google Privacy Policy
+
+Security
+We value your trust in providing us your personal information, thus we are striving to use commercially acceptable means of protecting it. However, please be aware that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security.
+
+Changes to This Privacy Policy
+We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.
+
+You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.
+
+Contact Us
+If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at techspy159@gmail.com.
