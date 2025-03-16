@@ -1,0 +1,205 @@
+:root {
+    --primary-color: #0C5C9C;
+    --accent-color: #D32F2F;
+    --background-color: #121212;
+    --card-color: #1E1E1E;
+    --text-color: #E2E2E6;
+    --secondary-text: #B0B0B0;
+    --border-color: #333333;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Header Styles */
+header {
+    background-color: var(--card-color);
+    padding: 20px 0;
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 40px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo h1 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+.compass-icon {
+    position: relative;
+    width: 40px;
+    height: 40px;
+}
+
+.compass-circle {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #1A1A1A;
+    border: 2px solid var(--primary-color);
+}
+
+.needle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 2px;
+    height: 30px;
+    /* Make the needle's centerpoint align with compass center */
+    transform-origin: center;
+    transform: rotate(0deg);
+    transition: transform 0.5s ease;
+    animation: needle-spin 5s infinite alternate;
+    overflow: visible;
+}
+
+.needle:before, .needle:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+
+.needle:before {
+    /* Red north part */
+    top: 0;
+    height: 50%;
+    background-color: var(--accent-color);
+}
+
+.needle:after {
+    /* White south part */
+    bottom: 0;
+    height: 50%;
+    background-color: #FFFFFF;
+}
+
+@keyframes needle-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(180deg); }
+}
+
+/* Main Content Styles */
+main {
+    padding-bottom: 60px;
+}
+
+.policy-content {
+    background-color: var(--card-color);
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: var(--primary-color);
+}
+
+.last-updated {
+    font-size: 0.9rem;
+    color: var(--secondary-text);
+    margin-bottom: 30px;
+}
+
+.policy-section {
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    color: var(--text-color);
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 5px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+ul {
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.contact-email {
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+/* Footer Styles */
+footer {
+    background-color: var(--card-color);
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid var(--border-color);
+    font-size: 0.9rem;
+    color: var(--secondary-text);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .logo h1 {
+        font-size: 1.5rem;
+    }
+    
+    h2 {
+        font-size: 1.8rem;
+    }
+    
+    h3 {
+        font-size: 1.2rem;
+    }
+    
+    .policy-content {
+        padding: 20px;
+    }
+}
+
+/* Hover Effects */
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--accent-color);
+    text-decoration: underline;
+}
