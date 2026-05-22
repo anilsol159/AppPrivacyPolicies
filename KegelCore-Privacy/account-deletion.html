@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Request account and data deletion for the KegelCore app." />
+    <meta name="theme-color" content="#4F46E5" />
+    <title>Delete Your Account · KegelCore</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="index.html">
+            <span class="brand-mark" aria-hidden="true">KC</span>
+            <span class="brand-name">KegelCore</span>
+        </a>
+        <nav>
+            <a href="index.html">Privacy</a>
+            <a href="account-deletion.html" class="active">Delete Account</a>
+            <a href="terms.html">Terms</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <p class="eyebrow">Account &amp; Data Deletion</p>
+            <h1>Delete your KegelCore account.</h1>
+            <p class="lede">
+                You can delete your account and all associated data at any time —
+                directly from inside the app, or by emailing us using the form below.
+                Either way, the result is the same: a full, permanent erasure within
+                90 days.
+            </p>
+        </section>
+
+        <section class="card highlights">
+            <h2>What gets deleted</h2>
+            <ul class="bullets">
+                <li>Your Google sign-in identifier and all profile data we hold (email, display name, Firebase UID).</li>
+                <li>All onboarding answers (goal, age range, gender, fitness level, conditions, preferences).</li>
+                <li>All workout history, XP, streaks, level, programs, and goal-completion records.</li>
+                <li>Your subscription record on our side. (To cancel a paid subscription you still need to manage it in the Google Play Store — see step 3 below.)</li>
+            </ul>
+            <p class="note">Anonymised aggregate analytics that can no longer be traced back to you may be retained.</p>
+        </section>
+
+        <article class="card prose">
+            <h2 id="in-app">Option 1 — Delete from inside the app (fastest)</h2>
+            <ol class="steps">
+                <li>Open KegelCore on your device.</li>
+                <li>Tap <strong>Profile</strong> in the bottom navigation bar.</li>
+                <li>Scroll to <strong>Settings</strong>.</li>
+                <li>Tap <strong>Delete Account</strong> (shown in red).</li>
+                <li>Confirm. You'll be signed out immediately and your data is scheduled for permanent deletion within 90 days.</li>
+            </ol>
+            <p>
+                If you change your mind during the 90-day window, email us
+                at <a href="mailto:coderanil0@gmail.com?subject=Cancel%20KegelCore%20account%20deletion">coderanil0@gmail.com</a>
+                and we'll cancel the request.
+            </p>
+
+            <h2 id="by-email">Option 2 — Request by email</h2>
+            <p>
+                If you don't have the app installed, send us an email and we'll process
+                the deletion manually.
+            </p>
+            <p class="cta-row">
+                <a class="btn primary"
+                   href="mailto:coderanil0@gmail.com?subject=KegelCore%20account%20deletion%20request&amp;body=Hi%2C%0A%0AI%27d%20like%20to%20delete%20my%20KegelCore%20account%20and%20all%20associated%20data.%0A%0AGoogle%20account%20email%20used%20to%20sign%20up%3A%20%3Cyour%20email%3E%0A%0AThanks.">
+                    Email deletion request
+                </a>
+            </p>
+            <p>
+                Please send the email from the same Google account you used to sign
+                into KegelCore so we can verify the request. We'll confirm receipt
+                within 7 days and complete deletion within 90 days.
+            </p>
+
+            <h2 id="cancel-sub">Option 3 — Cancel your subscription</h2>
+            <p>
+                Account deletion does not automatically cancel an active Google Play
+                subscription (Google manages billing, not us). To stop being charged:
+            </p>
+            <ol class="steps">
+                <li>Open the <strong>Google Play Store</strong> app.</li>
+                <li>Tap your profile picture → <strong>Payments &amp; subscriptions</strong> → <strong>Subscriptions</strong>.</li>
+                <li>Tap <strong>KegelCore</strong> and then <strong>Cancel subscription</strong>.</li>
+            </ol>
+            <p>
+                You can also visit
+                <a href="https://play.google.com/store/account/subscriptions" target="_blank" rel="noopener">play.google.com/store/account/subscriptions</a>
+                in a browser.
+            </p>
+
+            <h2 id="timeline">Deletion timeline</h2>
+            <ul>
+                <li><strong>Immediately:</strong> you are signed out of the app on every device. Your data is queued for permanent deletion and we treat the account as deactivated.</li>
+                <li><strong>Within 90 days:</strong> we permanently remove your data from our active databases.</li>
+                <li><strong>Within 90 days of that:</strong> the data is removed from encrypted backup snapshots as the snapshot rotation cycles through.</li>
+            </ul>
+
+            <h2 id="contact">Questions?</h2>
+            <p>
+                Email <a href="mailto:coderanil0@gmail.com">coderanil0@gmail.com</a> —
+                we read every message.
+            </p>
+        </article>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <p>© <span id="year"></span> ASD Media · KegelCore</p>
+            <p>
+                <a href="index.html">Privacy</a> ·
+                <a href="terms.html">Terms</a> ·
+                <a href="account-deletion.html">Delete Account</a> ·
+                <a href="contact.html">Contact</a>
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
+

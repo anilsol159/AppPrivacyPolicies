@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+# Be polite to legal/policy crawlers
+Sitemap: /sitemap.xml
+

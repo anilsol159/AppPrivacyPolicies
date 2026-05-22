@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Contact the KegelCore team." />
+    <meta name="theme-color" content="#4F46E5" />
+    <title>Contact · KegelCore</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="index.html">
+            <span class="brand-mark" aria-hidden="true">KC</span>
+            <span class="brand-name">KegelCore</span>
+        </a>
+        <nav>
+            <a href="index.html">Privacy</a>
+            <a href="account-deletion.html">Delete Account</a>
+            <a href="terms.html">Terms</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <p class="eyebrow">Contact</p>
+            <h1>Get in touch.</h1>
+            <p class="lede">
+                Questions, feedback, bug reports, partnerships, press — same inbox,
+                always read by a human.
+            </p>
+        </section>
+
+        <section class="card prose">
+            <h2>Email</h2>
+            <p>
+                <a class="btn primary"
+                   href="mailto:coderanil0@gmail.com?subject=KegelCore">
+                    coderanil0@gmail.com
+                </a>
+            </p>
+
+            <h2>What to include</h2>
+            <ul>
+                <li><strong>Bug report:</strong> device model, Android version, what you were doing, what happened, what you expected.</li>
+                <li><strong>Subscription / billing:</strong> the email on your Google account so we can find the purchase.</li>
+                <li><strong>Account deletion:</strong> see the dedicated <a href="account-deletion.html">Account Deletion</a> page for the fastest path.</li>
+                <li><strong>Press / partnerships:</strong> a one-paragraph pitch is plenty for a first reply.</li>
+            </ul>
+
+            <h2>Response time</h2>
+            <p>
+                We aim to respond within <strong>3 business days</strong>. Privacy and
+                deletion requests are handled within <strong>30 days</strong>.
+            </p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <p>© <span id="year"></span> ASD Media · KegelCore</p>
+            <p>
+                <a href="index.html">Privacy</a> ·
+                <a href="terms.html">Terms</a> ·
+                <a href="account-deletion.html">Delete Account</a> ·
+                <a href="contact.html">Contact</a>
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
+
